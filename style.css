@@ -12,3 +12,31 @@ body {
     background-color: var(--cor-fundo);
     color; var(--cor-texto)
 }
+
+/* Estilizar o cabeçalho */ header {
+    background-color: var(--cor-cabecalho); padding: 10px; text-align: center;
+}
+
+header img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+/* Área principal do conteúdo */
+main {
+    padding: 20px;
+    text-align: jutify;
+}
+
+main h1 {
+    color: var(--cor-cabecalho)
+}
+
+/*Rodapé com assinatura */
+footer{
+    background-color: var(--cor-rodape);
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    font-style: italic;
+}
